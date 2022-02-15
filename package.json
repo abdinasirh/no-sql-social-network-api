@@ -1,0 +1,29 @@
+{
+  "name": "no-sql-social-network-api",
+  "version": "1.0.0",
+  "description": "socail network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdinasirh/no-sql-social-network-api.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "api"
+  ],
+  "author": "Abdinasir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdinasirh/no-sql-social-network-api/issues"
+  },
+  "homepage": "https://github.com/abdinasirh/no-sql-social-network-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
