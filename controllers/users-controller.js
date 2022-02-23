@@ -106,7 +106,7 @@ const usersController = {
   deleteFriend({ params }, res) {
     Users.findOneAndUpdate(
       { _id: params.id },
-      { $push: { friends: params.friendId } },
+      { $pull: { friends: params.friendId } },
       { new: true }
     )
     .populate({path: 'friends', select: '-__v'})
